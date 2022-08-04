@@ -1,0 +1,61 @@
+body{
+  background-color: rgb(35 35 52);
+  text-align: center;
+  font-family: sans-serif;
+}
+.blog{
+  line-height: 20px;
+}
+h1, .p1, .free{
+  color: white;
+}
+h1{
+  letter-spacing: 1px;
+  font-size: 60px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+}
+p{
+  font-size: 15px;
+}
+.free{
+  text-decoration: underline;
+}
+h2{
+  font-family: none ;
+}
+.num, .num3{
+  font-size: 20px;
+}
+.num3{
+  font-family: 'Playfair Display', serif;
+}
+.parent div{
+  background-color: rgb(255, 255, 255);
+  width: 33%;
+  margin: 0 10px;
+  line-height: 30px;
+}
+img{
+  width: 100%;
+}
+.parent{
+  display: flex;
+  margin: 0 40px;
+}
+button{
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  border: 2px solid white;
+  background-color: transparent;
+  font-weight: bolder;
+  letter-spacing: px;
+}
+button:hover{
+  cursor: pointer;
+}
+.learn-more{
+  margin-top: 30px;
+  padding: 15px 40px;
+  color: white;
+}
